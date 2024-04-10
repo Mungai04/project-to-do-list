@@ -1,0 +1,88 @@
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(doit.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+.Day-Manager{
+    width: 100%;
+    max-width: 540px;
+    background-image: url(Hintergrundbilder.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-bottom: 70px;
+    border-radius: 80px;
+}
+.Day-Manager h2{
+    color: black;
+    
+    display: flex;
+    align-items:center ;
+    margin-bottom: 20px;
+}
+.Day-Manager h2 img{
+
+
+    width: 40px;
+    margin-left: 10 px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    border-radius: 30px;
+    padding-left:20px ;
+    margin-bottom: 25px;
+}
+button{
+    border:none;
+    outline: none;
+    padding:16px 50px;
+    background: green;
+    color: yellow;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 12px 8px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(Bart.jpeg);
+    background-size: cover;
+    background-position: center;
+    top:12px;
+    left:8px;
+
+}
+ul li.checked{
+    color: paleturquoise;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(Bart.jpeg);
+
+}
