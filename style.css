@@ -1,13 +1,18 @@
 .container {
-    width: 100%;
+    width: 50%;
     min-height: 100vh;
-    background-image: url(images/_.jpeg);
+    
     background-position: center;
     background-size: cover;
     padding-left: 80px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 80px;
+    
+}
+.dark-mode{
+    background-color: #333;
+    color: white;
 }
 
 .Day-Manager {
@@ -25,7 +30,11 @@
     padding-right: 80px;
     padding-bottom: 70px;
     border-radius: 80px;
+    background-color: white;
+    color: black;
+
 }
+
 
 .Day-Manager h2 {
     font-style: oblique;
