@@ -1,16 +1,19 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background-image: url(images/Hintergrundbilder.jpeg);
     
     background-position: center;
     background-size: cover;
-
+}
+.dark-mode{
+    background-color: #333;
+    color: white;
+}
 
 .Day-Manager {
     width: 100%;
     max-width: 540px;
-    background-color: aliceblue;
+    background-color: rgb(165, 20, 170);
     background-size: cover;
     background-position: center;
     margin-top: 100px;
@@ -79,6 +82,7 @@ ol li::before {
     height: 28px;
     width: 28px;
     border-radius: 50%;
+    background-image: url(images/doit.jpeg);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -90,6 +94,10 @@ ol li.checked {
     text-decoration: line-through;
 }
 
+ol li.checked::before {
+    
+    background-image: url(images/list.jpeg);
+}
 
 ol li span {
     position: absolute;
@@ -105,5 +113,5 @@ ol li span {
 }
 
 ol li span:hover {
-    background: #95a828;
+    background: #466ab3;
 }

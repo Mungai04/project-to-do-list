@@ -78,3 +78,15 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('There was a problem with the fetch operation:', error);
       });
 });
+function toggleMode() {
+    const body = document.body;
+    const themeStyle = document.getElementById('theme-style');
+
+    body.classList.toggle('dark-mode');
+
+    if (themeStyle.getAttribute('href') === 'style.css') {
+        themeStyle.setAttribute('href', 'dark-mode.css');
+    } else {
+        themeStyle.setAttribute('href', 'style.css');
+    }
+}
