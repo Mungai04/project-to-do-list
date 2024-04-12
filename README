@@ -5,17 +5,19 @@
 #### By *Mungai John*
 
 ## Description
-This is a simple web application for managing daily tasks.On the home page it show 3 common tasks of a house manager which are deletable. The users can add,delete and mark tasks as completed.
+This is a simple web application for managing daily tasks.On the home page it show 3 common tasks of a house manager which are deletable. The users can add,delete and mark tasks as completed.It also support dark mode and light mode for better experience.
 
 ## Features
 Add tasks: Users can enter new tasks in the input box and click the "Add" button to add them to the list.
 Delete tasks: Users can delete tasks by clicking on the delete button (represented by a trash can icon) next to each task.
 Mark tasks as completed: Users can mark tasks as completed by clicking on the task itself. Completed tasks will be distinguished from incomplete tasks by strikethrough.
+Dark mode: User can toggle between light and dark modes by clicking on the "Toggle Mode"
 
 ## Usage
 Adding Tasks: Enter your task in the input box and click the "Add" button to add it to the list.
 Deleting Tasks: Click the delete button next to a task to remove it from the list.
 Marking Tasks as Completed: Click on a task to mark it as completed. Click again to undo the completion.
+Toggle Mode:click the "Toggle Mode" button to switch between light and dark mode.
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
