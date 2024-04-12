@@ -53,18 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     showTask();
 
-    function toggleMode() {
-        const body = document.body;
-        const themeStyle = document.getElementById('theme-style');
-
-        body.classList.toggle('dark-mode');
-
-        if (themeStyle.getAttribute('href') === 'style.css') {
-            themeStyle.setAttribute('href', 'dark-mode.css');
-        } else {
-            themeStyle.setAttribute('href', 'style.css');
-        }
-    }
+    
 
     // this is to show daily routine
     fetch('db.json')
